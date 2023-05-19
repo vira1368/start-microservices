@@ -31,11 +31,11 @@ namespace Basket.API.Controllers
         [ProducesResponseType(typeof(ShoppingCart), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<ShoppingCart>> UpdateBasket([FromBody] ShoppingCart basket)
         {
-            basket.Items.ForEach(async item =>
+            foreach (var item in basket.Items)
             {
                 var coupon = await _discountGrpcService.GetDiscount(item.ProductName);
                 item.Price -= coupon.Amount;
-            });
+            }
             var updatedBasket = await _basketRepository.UpdateBasket(basket);
             return Ok(updatedBasket);
         }
