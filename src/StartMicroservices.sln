@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Messages", "Buildi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{3FD8C780-2E60-4530-B4C3-884BB1D56E36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGateway", "ApiGateways\OcelotApiGateway\OcelotApiGateway.csproj", "{3B0E6085-41C0-45C1-BEF6-C47452B3EC70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotApiGateway", "ApiGateways\OcelotApiGateway\OcelotApiGateway.csproj", "{3B0E6085-41C0-45C1-BEF6-C47452B3EC70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Aggregator", "ApiGateways\Shopping.Aggregator\Shopping.Aggregator.csproj", "{1A2927BE-1C29-45F1-AAC3-703DF8C32DB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{3B0E6085-41C0-45C1-BEF6-C47452B3EC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B0E6085-41C0-45C1-BEF6-C47452B3EC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B0E6085-41C0-45C1-BEF6-C47452B3EC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2927BE-1C29-45F1-AAC3-703DF8C32DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2927BE-1C29-45F1-AAC3-703DF8C32DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2927BE-1C29-45F1-AAC3-703DF8C32DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2927BE-1C29-45F1-AAC3-703DF8C32DB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +114,7 @@ Global
 		{0A909666-59DD-45B2-8232-F69F6C16FE08} = {9AF056E5-E966-412E-9780-045E8CD64303}
 		{16A8837F-9A93-4B9D-A74F-3241DC3C67E7} = {4656678D-D243-47F8-B1D4-D4FDA9F23B8A}
 		{3B0E6085-41C0-45C1-BEF6-C47452B3EC70} = {3FD8C780-2E60-4530-B4C3-884BB1D56E36}
+		{1A2927BE-1C29-45F1-AAC3-703DF8C32DB1} = {3FD8C780-2E60-4530-B4C3-884BB1D56E36}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {201A888D-031B-4D37-8219-B1D09CAF1C03}
