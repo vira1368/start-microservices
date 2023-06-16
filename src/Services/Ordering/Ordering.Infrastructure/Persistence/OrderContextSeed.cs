@@ -22,17 +22,7 @@ namespace Ordering.Infrastructure.Persistence
                     Username = "vira",
                     FirstName = "Amin",
                     LastName = "Saffarnejad",
-                    EmailAddress = "vira1368@gmail.com",
-                    AddressLine = "Tehran",
-                    Country = "Iran",
-                    TotalPrice = 350,
-                    CVV = "0",
-                    CardName = "0",
-                    CardNumber = "0",
-                    Expiration = "0",
-                    State = "Tehran",
-                    ZipCode = "0",
-                    LastModifiedBy = "0"
+                    EmailAddress = "vira1368@gmail.com"
                 }
             };
     }
